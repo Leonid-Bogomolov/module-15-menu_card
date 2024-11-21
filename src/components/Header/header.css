@@ -1,0 +1,41 @@
+.header {
+    width: 100%;
+    padding: 5%;
+}
+
+.header > h1 {
+    text-align: center;
+    color: brown;
+}
+
+.outBurger {
+    width: 8vw;
+    height: auto;
+    padding: 1vw;
+    margin: 1vw auto 2vw;
+}
+
+.cardContainer {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.hidden {
+    display: none;
+}
+
+.Burger {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+    width: 100%;
+    aspect-ratio: 32/25;
+    cursor: pointer;
+}
+
+.burger__core {
+    width: 100%;
+    aspect-ratio: 10/1;
+    background-color: black;
+}
